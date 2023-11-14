@@ -119,6 +119,7 @@ def function6():
                 print (listt)
                 down()
                 shower1()
+                #potong1()
                 break              
                 
             elif 'Cabai Set-Matang' in listt:
@@ -126,6 +127,7 @@ def function6():
                 print (listt)
                 down()
                 shower2()
+                #potong2()
                 break
                 
             elif 'Cabai Matang' in listt:
@@ -133,15 +135,9 @@ def function6():
                 print (listt)
                 down()
                 shower3()
+                #potong3()
                 break
                 
-            elif 'Cabai Busuk' in listt:
-                print (elapsed_time6)
-                print (listt)
-                down()
-                reset()
-                break             
-
             else:
                 down()
                 break
@@ -181,7 +177,8 @@ def function12():
                 print (elapsed_time12)
                 print (listt)
                 down()
-                shower1() 
+                shower1()
+                #potong1() 
                 break             
                 
             elif 'Cabai Set-Matang' in listt:
@@ -189,6 +186,7 @@ def function12():
                 print (listt)
                 down()
                 shower2()
+                #potong2()
                 break
                 
             elif 'Cabai Matang' in listt:
@@ -196,14 +194,8 @@ def function12():
                 print (listt)
                 down()
                 shower3()
-                break
-                
-            elif 'Cabai Busuk' in listt:
-                print (elapsed_time12)
-                print (listt)
-                down()
-                reset()
-                break              
+                #potong3()
+                break             
 
             else:
                  down()
@@ -244,6 +236,7 @@ def function18():
                 print (listt)
                 down()
                 shower1() 
+                #potong1()
                 break             
                 
             elif 'Cabai Set-Matang' in listt:
@@ -251,6 +244,7 @@ def function18():
                 print (listt)
                 down()
                 shower2()
+                #potong2()
                 break
                 
             elif 'Cabai Matang' in listt:
@@ -258,14 +252,8 @@ def function18():
                 print (listt)
                 down()
                 shower3()
-                break
-                
-            elif 'Cabai Busuk' in listt:
-                print (elapsed_time18)
-                print (listt)
-                down()
-                reset()
-                break              
+                #potong3()
+                break           
 
             else:
                  down()
@@ -306,6 +294,7 @@ def function24():
                 print (listt)
                 down()
                 shower1() 
+                #potong1()
                 break             
                 
             elif 'Cabai Set-Matang' in listt:
@@ -313,6 +302,7 @@ def function24():
                 print (listt)
                 down()
                 shower2()
+                #potong2()
                 break
                 
             elif 'Cabai Matang' in listt:
@@ -320,14 +310,8 @@ def function24():
                 print (listt)
                 down()
                 shower3()
-                break
-                
-            elif 'Cabai Busuk' in listt:
-                print (elapsed_time24)
-                print (listt)
-                down()
-                reset()
-                break              
+                #potong3()
+                break          
 
             else:
                  down()
@@ -368,6 +352,7 @@ def function30():
                 print (listt)
                 down()
                 shower1() 
+                #potong1()
                 break             
                 
             elif 'Cabai Set-Matang' in listt:
@@ -375,6 +360,7 @@ def function30():
                 print (listt)
                 down()
                 shower2()
+                #potong2()
                 break
                 
             elif 'Cabai Matang' in listt:
@@ -382,14 +368,8 @@ def function30():
                 print (listt)
                 down()
                 shower3()
-                break
-
-            elif 'Cabai Busuk' in listt:
-                print (elapsed_time30)
-                print (listt)
-                down()
-                reset()
-                break              
+                #potong3()
+                break             
 
             else:
                  down()
@@ -456,6 +436,7 @@ def function40():
                 print (listt)
                 down()
                 shower1()
+                #potong1()
                 break              
                 
             elif 'Cabai Set-Matang' in listt:
@@ -463,6 +444,7 @@ def function40():
                 print (listt)
                 down()
                 shower2()
+                #potong2()
                 break
                 
             elif 'Cabai Matang' in listt:
@@ -470,14 +452,8 @@ def function40():
                 print (listt)
                 down()
                 shower3()
-                break
-                
-            elif 'Cabai Busuk' in listt:
-                print (elapsed_time40)
-                print (listt)
-                down()
-                reset()
-                break              
+                #potong3()
+                break            
 
             else: 
                 down()
@@ -519,6 +495,7 @@ def function46():
                 print (listt)
                 down()
                 shower1() 
+                #potong1()
                 break             
                 
             elif 'Cabai Set-Matang' in listt:
@@ -526,6 +503,7 @@ def function46():
                 print (listt)
                 down()
                 shower2()
+                #potong2()
                 break
                 
             elif 'Cabai Matang' in listt:
@@ -533,14 +511,8 @@ def function46():
                 print (listt)
                 down()
                 shower3()
+                #potong3()
                 break
-                
-            elif 'Cabai Busuk' in listt:
-                print (elapsed_time46)
-                print (listt)
-                down()
-                reset()
-                break              
 
             else:
                  down()
@@ -581,6 +553,7 @@ def function52():
                 print (listt)
                 down()
                 shower1() 
+                #potong1()
                 break             
                 
             elif 'Cabai Set-Matang' in listt:
@@ -588,6 +561,7 @@ def function52():
                 print (listt)
                 down()
                 shower2()
+                #potong2()
                 break
                 
             elif 'Cabai Matang' in listt:
@@ -595,13 +569,7 @@ def function52():
                 print (listt)
                 down()
                 shower3()
-                break
-                
-            elif 'Cabai Busuk' in listt:
-                print (elapsed_time52)
-                print (listt)
-                down()
-                reset()
+                #potong3()
                 break              
 
             else:
@@ -642,7 +610,8 @@ def function58():
                 print (elapsed_time58)
                 print (listt)
                 down()
-                shower1() 
+                shower1()
+                #potong1() 
                 break             
                 
             elif 'Cabai Set-Matang' in listt:
@@ -650,6 +619,7 @@ def function58():
                 print (listt)
                 down()
                 shower2()
+                #potong2()
                 break
                 
             elif 'Cabai Matang' in listt:
@@ -657,14 +627,8 @@ def function58():
                 print (listt)
                 down()
                 shower3()
-                break
-                
-            elif 'Cabai Busuk' in listt:
-                print (elapsed_time58)
-                print (listt)
-                down()
-                reset()
-                break              
+                #potong3()
+                break             
 
             else:
                  down()
@@ -705,6 +669,7 @@ def function64():
                 print (listt)
                 down()
                 shower1() 
+                #potong1()
                 break             
                 
             elif 'Cabai Set-Matang' in listt:
@@ -712,6 +677,7 @@ def function64():
                 print (listt)
                 down()
                 shower2()
+                #potong2()
                 break
                 
             elif 'Cabai Matang' in listt:
@@ -719,14 +685,8 @@ def function64():
                 print (listt)
                 down()
                 shower3()
-                break
-                
-            elif 'Cabai Busuk' in listt:
-                print (elapsed_time64)
-                print (listt)
-                down()
-                reset()
-                break              
+                #potong3()
+                break             
 
             else:
                  down()
@@ -793,6 +753,7 @@ def function74():
                 print (listt)
                 down()
                 shower1()
+                #potong1()
                 break              
                 
             elif 'Cabai Set-Matang' in listt:
@@ -800,6 +761,7 @@ def function74():
                 print (listt)
                 down()
                 shower2()
+                #potong2()
                 break
                 
             elif 'Cabai Matang' in listt:
@@ -807,13 +769,7 @@ def function74():
                 print (listt)
                 down()
                 shower3()
-                break
-                
-            elif 'Cabai Busuk' in listt:
-                print (elapsed_time74)
-                print (listt)
-                down()
-                reset()
+                #potong3()
                 break
 
             else:
@@ -856,6 +812,7 @@ def function80():
                 print (listt)
                 down()
                 shower1() 
+                #potong1()
                 break             
                 
             elif 'Cabai Set-Matang' in listt:
@@ -863,6 +820,7 @@ def function80():
                 print (listt)
                 down()
                 shower2()
+                #potong2()
                 break
                 
             elif 'Cabai Matang' in listt:
@@ -870,13 +828,7 @@ def function80():
                 print (listt)
                 down()
                 shower3()
-                break
-                
-            elif 'Cabai Busuk' in listt:
-                print (elapsed_time80)
-                print (listt)
-                down()
-                reset()
+                #potong3()
                 break
 
             else:
@@ -918,6 +870,7 @@ def function86():
                 print (listt)
                 down()
                 shower1() 
+                #potong1()
                 break             
                 
             elif 'Cabai Set-Matang' in listt:
@@ -925,6 +878,7 @@ def function86():
                 print (listt)
                 down()
                 shower2()
+                #potong2()
                 break
                 
             elif 'Cabai Matang' in listt:
@@ -932,13 +886,7 @@ def function86():
                 print (listt)
                 down()
                 shower3()
-                break
-                
-            elif 'Cabai Busuk' in listt:
-                print (elapsed_time86)
-                print (listt)
-                down()
-                reset()
+                #potong3()
                 break
 
             else:
@@ -979,7 +927,8 @@ def function92():
                 print (elapsed_time92)
                 print (listt)
                 down()
-                shower1() 
+                shower1()
+                #potong1() 
                 break             
                 
             elif 'Cabai Set-Matang' in listt:
@@ -987,6 +936,7 @@ def function92():
                 print (listt)
                 down()
                 shower2()
+                #potong2()
                 break
                 
             elif 'Cabai Matang' in listt:
@@ -994,13 +944,7 @@ def function92():
                 print (listt)
                 down()
                 shower3()
-                break
-                
-            elif 'Cabai Busuk' in listt:
-                print (elapsed_time92)
-                print (listt)
-                down()
-                reset()
+                #potong3()
                 break
 
             else:
@@ -1042,6 +986,7 @@ def function98():
                 print (listt)
                 down()
                 shower1() 
+                #potong1()
                 break             
                 
             elif 'Cabai Set-Matang' in listt:
@@ -1049,6 +994,7 @@ def function98():
                 print (listt)
                 down()
                 shower2()
+                #potong2()
                 break
                 
             elif 'Cabai Matang' in listt:
@@ -1056,13 +1002,7 @@ def function98():
                 print (listt)
                 down()
                 shower3()
-                break
-                
-            elif 'Cabai Busuk' in listt:
-                print (elapsed_time98)
-                print (listt)
-                down()
-                reset()
+                #potong3()
                 break
 
             else:
@@ -1130,6 +1070,7 @@ def function108():
                 print (listt)
                 down()
                 shower1()
+                #potong1()
                 break              
                 
             elif 'Cabai Set-Matang' in listt:
@@ -1137,6 +1078,7 @@ def function108():
                 print (listt)
                 down()
                 shower2()
+                #potong2()
                 break
                 
             elif 'Cabai Matang' in listt:
@@ -1144,13 +1086,7 @@ def function108():
                 print (listt)
                 down()
                 shower3()
-                break
-                
-            elif 'Cabai Busuk' in listt:
-                print (elapsed_time108)
-                print (listt)
-                down()
-                reset()
+                #potong3()
                 break
 
             else:
@@ -1193,6 +1129,7 @@ def function114():
                 print (listt)
                 down()
                 shower1() 
+                #potong1()
                 break             
                 
             elif 'Cabai Set-Matang' in listt:
@@ -1200,6 +1137,7 @@ def function114():
                 print (listt)
                 down()
                 shower2()
+                #potong2()
                 break
                 
             elif 'Cabai Matang' in listt:
@@ -1207,13 +1145,7 @@ def function114():
                 print (listt)
                 down()
                 shower3()
-                break
-                
-            elif 'Cabai Busuk' in listt:
-                print (elapsed_time114)
-                print (listt)
-                down()
-                reset()
+                #potong3()
                 break
 
             else:
@@ -1255,6 +1187,7 @@ def function120():
                 print (listt)
                 down()
                 shower1() 
+                #potong1()
                 break             
                 
             elif 'Cabai Set-Matang' in listt:
@@ -1262,6 +1195,7 @@ def function120():
                 print (listt)
                 down()
                 shower2()
+                #potong2()
                 break
                 
             elif 'Cabai Matang' in listt:
@@ -1269,13 +1203,7 @@ def function120():
                 print (listt)
                 down()
                 shower3()
-                break
-                
-            elif 'Cabai Busuk' in listt:
-                print (elapsed_time120)
-                print (listt)
-                down()
-                reset()
+                #potong3()
                 break
 
             else:
@@ -1317,6 +1245,7 @@ def function126():
                 print (listt)
                 down()
                 shower1() 
+                #potong1()
                 break             
                 
             elif 'Cabai Set-Matang' in listt:
@@ -1324,6 +1253,7 @@ def function126():
                 print (listt)
                 down()
                 shower2()
+                #potong2()
                 break
                 
             elif 'Cabai Matang' in listt:
@@ -1331,14 +1261,9 @@ def function126():
                 print (listt)
                 down()
                 shower3()
+                #potong3()
                 break
                 
-            elif 'Cabai Busuk' in listt:
-                print (elapsed_time126)
-                print (listt)
-                down()
-                reset()
-                break
             else:
                  down()
                  break
@@ -1378,6 +1303,7 @@ def function132():
                 print (listt)
                 down()
                 shower1() 
+                #potong1()
                 break             
                 
             elif 'Cabai Set-Matang' in listt:
@@ -1385,6 +1311,7 @@ def function132():
                 print (listt)
                 down()
                 shower2()
+                #potong2()
                 break
                 
             elif 'Cabai Matang' in listt:
@@ -1392,14 +1319,9 @@ def function132():
                 print (listt)
                 down()
                 shower3()
+                #potong3()
                 break
                 
-            elif 'Cabai Busuk' in listt:
-                print (elapsed_time132)
-                print (listt)
-                down()
-                reset()
-                break
             else:
                  down()
                  break
@@ -1465,6 +1387,7 @@ def function142():
                 print (listt)
                 down()
                 shower1()
+                #potong1()
                 break              
                 
             elif 'Cabai Set-Matang' in listt:
@@ -1472,6 +1395,7 @@ def function142():
                 print (listt)
                 down()
                 shower2()
+                #potong2()
                 break
                 
             elif 'Cabai Matang' in listt:
@@ -1479,13 +1403,7 @@ def function142():
                 print (listt)
                 down()
                 shower3()
-                break
-                
-            elif 'Cabai Busuk' in listt:
-                print (elapsed_time142)
-                print (listt)
-                down()
-                reset()
+                #potong3()
                 break
 
             else:
@@ -1528,6 +1446,7 @@ def function148():
                 print (listt)
                 down()
                 shower1() 
+                #potong1()
                 break             
                 
             elif 'Cabai Set-Matang' in listt:
@@ -1535,6 +1454,7 @@ def function148():
                 print (listt)
                 down()
                 shower2()
+                #potong2()
                 break
                 
             elif 'Cabai Matang' in listt:
@@ -1542,13 +1462,7 @@ def function148():
                 print (listt)
                 down()
                 shower3()
-                break
-                
-            elif 'Cabai Busuk' in listt:
-                print (elapsed_time148)
-                print (listt)
-                down()
-                reset()
+                #potong3()
                 break
 
             else:
@@ -1590,6 +1504,7 @@ def function154():
                 print (listt)
                 down()
                 shower1() 
+                #potong1()
                 break             
                 
             elif 'Cabai Set-Matang' in listt:
@@ -1597,6 +1512,7 @@ def function154():
                 print (listt)
                 down()
                 shower2()
+                #potong2()
                 break
                 
             elif 'Cabai Matang' in listt:
@@ -1604,13 +1520,7 @@ def function154():
                 print (listt)
                 down()
                 shower3()
-                break
-                
-            elif 'Cabai Busuk' in listt:
-                print (elapsed_time154)
-                print (listt)
-                down()
-                reset()
+                #potong3()
                 break
 
             else:
@@ -1652,6 +1562,7 @@ def function160():
                 print (listt)
                 down()
                 shower1() 
+                #potong1()
                 break             
                 
             elif 'Cabai Set-Matang' in listt:
@@ -1659,6 +1570,7 @@ def function160():
                 print (listt)
                 down()
                 shower2()
+                #potong2()
                 break
                 
             elif 'Cabai Matang' in listt:
@@ -1666,13 +1578,7 @@ def function160():
                 print (listt)
                 down()
                 shower3()
-                break
-                
-            elif 'Cabai Busuk' in listt:
-                print (elapsed_time160)
-                print (listt)
-                down()
-                reset()
+                #potong3()
                 break
 
             else:
@@ -1714,6 +1620,7 @@ def function166():
                 print (listt)
                 down()
                 shower1() 
+                #potong1()
                 break             
                 
             elif 'Cabai Set-Matang' in listt:
@@ -1721,6 +1628,7 @@ def function166():
                 print (listt)
                 down()
                 shower2()
+                #potong2()
                 break
                 
             elif 'Cabai Matang' in listt:
@@ -1728,13 +1636,7 @@ def function166():
                 print (listt)
                 down()
                 shower3()
-                break
-                
-            elif 'Cabai Busuk' in listt:
-                print (elapsed_time166)
-                print (listt)
-                down()
-                reset()
+                #potong3()
                 break
 
             else:
@@ -1802,6 +1704,7 @@ def function176():
                 print (listt)
                 down()
                 shower1()
+                #potong1()
                 break              
                 
             elif 'Cabai Set-Matang' in listt:
@@ -1809,6 +1712,7 @@ def function176():
                 print (listt)
                 down()
                 shower2()
+                #potong2()
                 break
                 
             elif 'Cabai Matang' in listt:
@@ -1816,13 +1720,7 @@ def function176():
                 print (listt)
                 down()
                 shower3()
-                break
-                
-            elif 'Cabai Busuk' in listt:
-                print (elapsed_time176)
-                print (listt)
-                down()
-                reset()
+                #potong3()
                 break
 
             else:
@@ -1864,7 +1762,8 @@ def function182():
                 print (elapsed_time182)
                 print (listt)
                 down()
-                shower1() 
+                shower1()
+                #potong1()
                 break             
                 
             elif 'Cabai Set-Matang' in listt:
@@ -1872,6 +1771,7 @@ def function182():
                 print (listt)
                 down()
                 shower2()
+                #potong2()
                 break
                 
             elif 'Cabai Matang' in listt:
@@ -1879,13 +1779,7 @@ def function182():
                 print (listt)
                 down()
                 shower3()
-                break
-                
-            elif 'Cabai Busuk' in listt:
-                print (elapsed_time182)
-                print (listt)
-                down()
-                reset()
+                #potong3()
                 break
 
             else:
@@ -1927,6 +1821,7 @@ def function188():
                 print (listt)
                 down()
                 shower1() 
+                #potong1()
                 break             
                 
             elif 'Cabai Set-Matang' in listt:
@@ -1934,6 +1829,7 @@ def function188():
                 print (listt)
                 down()
                 shower2()
+                #potong2()
                 break
                 
             elif 'Cabai Matang' in listt:
@@ -1941,13 +1837,7 @@ def function188():
                 print (listt)
                 down()
                 shower3()
-                break
-                
-            elif 'Cabai Busuk' in listt:
-                print (elapsed_time188)
-                print (listt)
-                down()
-                reset()
+                #potong3()
                 break
 
             else:
@@ -1989,6 +1879,7 @@ def function194():
                 print (listt)
                 down()
                 shower1() 
+                #potong1()
                 break             
                 
             elif 'Cabai Set-Matang' in listt:
@@ -1996,6 +1887,7 @@ def function194():
                 print (listt)
                 down()
                 shower2()
+                #potong2()
                 break
                 
             elif 'Cabai Matang' in listt:
@@ -2003,13 +1895,7 @@ def function194():
                 print (listt)
                 down()
                 shower3()
-                break
-                
-            elif 'Cabai Busuk' in listt:
-                print (elapsed_time194)
-                print (listt)
-                down()
-                reset()
+                #potong3()
                 break
 
             else:
@@ -2051,6 +1937,7 @@ def function200():
                 print (listt)
                 down()
                 shower1() 
+                #potong1()
                 break             
                 
             elif 'Cabai Set-Matang' in listt:
@@ -2058,6 +1945,7 @@ def function200():
                 print (listt)
                 down()
                 shower2()
+                #potong2()
                 break
                 
             elif 'Cabai Matang' in listt:
@@ -2065,13 +1953,7 @@ def function200():
                 print (listt)
                 down()
                 shower3()
-                break
-                
-            elif 'Cabai Busuk' in listt:
-                print (elapsed_time200)
-                print (listt)
-                down()
-                reset()
+                #potong3()
                 break
 
             else:
