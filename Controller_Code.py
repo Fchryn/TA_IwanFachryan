@@ -14,8 +14,9 @@ import datetime
 from datetime import datetime
 from datetime import timedelta
 
-model = torch.hub.load('ultralytics/yolov5', 'custom', path='TANAMAN.pt')  # or yolov5m, yolov5l, yolov5x, custom
-ser = serial.Serial('/dev/ttyACM0', 115200, timeout=1)
+model = torch.hub.load('ultralytics/yolov5', 'custom', path='C:/Users/User/OneDrive/Documents/Github_TAIwanFachryan/TA_IwanFachryan/yolov5/runs/train/exp/best,pt')  # repo yolo, model, local direktori
+ser = serial.Serial('/dev/ttyACM0', 115200, timeout=1) # menjalankan di linux atau mini-pc
+# ser = serial.Serial(port='COM7', baudrate=115200, timeout=1) # menjalankan di laptop/pc windows
 img = 'https://ultralytics.com/images/zidane.jpg'  # or file, Path, PIL, OpenCV, numpy, list
 
 #G-Code Declaration
