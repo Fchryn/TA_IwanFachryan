@@ -14,9 +14,9 @@ import datetime
 from datetime import datetime
 from datetime import timedelta
 
-model = torch.hub.load('ultralytics/yolov5', 'custom', path='C:/Users/User/OneDrive/Documents/Github_TAIwanFachryan/TA_IwanFachryan/yolov5/runs/train/exp/best,pt')  # repo yolo, model, local direktori
-ser = serial.Serial('/dev/ttyACM0', 115200, timeout=1) # menjalankan di linux atau mini-pc
-# ser = serial.Serial(port='COM7', baudrate=115200, timeout=1) # menjalankan di laptop/pc windows
+model = torch.hub.load('ultralytics/yolov5', 'custom', path='C:/Users/User/OneDrive/Documents/Github_TAIwanFachryan/TA_IwanFachryan/yolov5/runs/train/exp/best.pt')  # repo yolo, model, local direktori
+# ser = serial.Serial('/dev/ttyACM0', 115200, timeout=1) # menjalankan di linux atau mini-pc
+ser = serial.Serial(port='COM7', baudrate=115200, timeout=1) # menjalankan di laptop/pc windows
 img = 'https://ultralytics.com/images/zidane.jpg'  # or file, Path, PIL, OpenCV, numpy, list
 
 #G-Code Declaration
@@ -42,32 +42,32 @@ SIRAM   = ["M3\n","M5\n"]
 OFF     = ""
 NOT     = "Tanaman tidak membutuhkan pupuk"
 
-def shower1():
-    reset()
-    time.sleep(2)
-    for s in SIRAM:
-            print (SIRAM)
-            ser.write(s.encode('utf-8'))
-            print (elapsed_time1)
-            time.sleep(0.1)
+# def shower1():
+#     reset()
+#     time.sleep(2)
+#     for s in SIRAM:
+#             print (SIRAM)
+#             ser.write(s.encode('utf-8'))
+#             print (elapsed_time1)
+#             time.sleep(0.1)
 
-def shower2():
-    reset()
-    time.sleep(2)
-    for s in SIRAM:
-            print (SIRAM)
-            ser.write(s.encode('utf-8'))
-            print (elapsed_time1)
-            time.sleep(0.5)
+# def shower2():
+#     reset()
+#     time.sleep(2)
+#     for s in SIRAM:
+#             print (SIRAM)
+#             ser.write(s.encode('utf-8'))
+#             print (elapsed_time1)
+#             time.sleep(0.5)
 
-def shower3():
-    reset()
-    time.sleep(2)
-    for s in SIRAM:
-            print (SIRAM)
-            ser.write(s.encode('utf-8'))
-            print (elapsed_time1)
-            time.sleep(1.5)
+# def shower3():
+#     reset()
+#     time.sleep(2)
+#     for s in SIRAM:
+#             print (SIRAM)
+#             ser.write(s.encode('utf-8'))
+#             print (elapsed_time1)
+#             time.sleep(1.5)
 
 def down():
     print (BAWAH)
@@ -75,10 +75,10 @@ def down():
     print (elapsed_time1)
     time.sleep(21)
 
-def up():
-    print (ATAS)
-    ser.write(ATAS.encode('utf-8'))
-    print (elapsed_time1)
+# def up():
+#     print (ATAS)
+#     ser.write(ATAS.encode('utf-8'))
+#     print (elapsed_time1)
 
 def reset():
     print (RESET)
@@ -119,7 +119,7 @@ def function6():
                 print (elapsed_time6)
                 print (listt)
                 down()
-                shower1()
+                #shower1()
                 #potong1()
                 break              
                 
@@ -127,7 +127,7 @@ def function6():
                 print (elapsed_time6)
                 print (listt)
                 down()
-                shower2()
+                #shower2()
                 #potong2()
                 break
                 
@@ -135,7 +135,7 @@ def function6():
                 print (elapsed_time6)
                 print (listt)
                 down()
-                shower3()
+                #shower3()
                 #potong3()
                 break
                 
@@ -178,7 +178,7 @@ def function12():
                 print (elapsed_time12)
                 print (listt)
                 down()
-                shower1()
+                #shower1()
                 #potong1() 
                 break             
                 
@@ -186,7 +186,7 @@ def function12():
                 print (elapsed_time12)
                 print (listt)
                 down()
-                shower2()
+                #shower2()
                 #potong2()
                 break
                 
@@ -194,7 +194,7 @@ def function12():
                 print (elapsed_time12)
                 print (listt)
                 down()
-                shower3()
+                #shower3()
                 #potong3()
                 break             
 
@@ -236,7 +236,7 @@ def function18():
                 print (elapsed_time18)
                 print (listt)
                 down()
-                shower1() 
+                #shower1() 
                 #potong1()
                 break             
                 
@@ -244,7 +244,7 @@ def function18():
                 print (elapsed_time18)
                 print (listt)
                 down()
-                shower2()
+                #shower2()
                 #potong2()
                 break
                 
@@ -252,7 +252,7 @@ def function18():
                 print (elapsed_time18)
                 print (listt)
                 down()
-                shower3()
+                #shower3()
                 #potong3()
                 break           
 
@@ -294,7 +294,7 @@ def function24():
                 print (elapsed_time24)
                 print (listt)
                 down()
-                shower1() 
+                #shower1() 
                 #potong1()
                 break             
                 
@@ -302,7 +302,7 @@ def function24():
                 print (elapsed_time24)
                 print (listt)
                 down()
-                shower2()
+                #shower2()
                 #potong2()
                 break
                 
@@ -310,7 +310,7 @@ def function24():
                 print (elapsed_time24)
                 print (listt)
                 down()
-                shower3()
+                #shower3()
                 #potong3()
                 break          
 
@@ -352,7 +352,7 @@ def function30():
                 print (elapsed_time30)
                 print (listt)
                 down()
-                shower1() 
+                #shower1() 
                 #potong1()
                 break             
                 
@@ -360,7 +360,7 @@ def function30():
                 print (elapsed_time30)
                 print (listt)
                 down()
-                shower2()
+                #shower2()
                 #potong2()
                 break
                 
@@ -368,7 +368,7 @@ def function30():
                 print (elapsed_time30)
                 print (listt)
                 down()
-                shower3()
+                #shower3()
                 #potong3()
                 break             
 
@@ -436,7 +436,7 @@ def function40():
                 print (elapsed_time40)
                 print (listt)
                 down()
-                shower1()
+                #shower1()
                 #potong1()
                 break              
                 
@@ -444,7 +444,7 @@ def function40():
                 print (elapsed_time40)
                 print (listt)
                 down()
-                shower2()
+                #shower2()
                 #potong2()
                 break
                 
@@ -452,7 +452,7 @@ def function40():
                 print (elapsed_time40)
                 print (listt)
                 down()
-                shower3()
+                #shower3()
                 #potong3()
                 break            
 
@@ -495,7 +495,7 @@ def function46():
                 print (elapsed_time46)
                 print (listt)
                 down()
-                shower1() 
+                #shower1() 
                 #potong1()
                 break             
                 
@@ -503,7 +503,7 @@ def function46():
                 print (elapsed_time46)
                 print (listt)
                 down()
-                shower2()
+                #shower2()
                 #potong2()
                 break
                 
@@ -511,7 +511,7 @@ def function46():
                 print (elapsed_time46)
                 print (listt)
                 down()
-                shower3()
+                #shower3()
                 #potong3()
                 break
 
@@ -553,7 +553,7 @@ def function52():
                 print (elapsed_time52)
                 print (listt)
                 down()
-                shower1() 
+                #shower1() 
                 #potong1()
                 break             
                 
@@ -561,7 +561,7 @@ def function52():
                 print (elapsed_time52)
                 print (listt)
                 down()
-                shower2()
+                #shower2()
                 #potong2()
                 break
                 
@@ -569,7 +569,7 @@ def function52():
                 print (elapsed_time52)
                 print (listt)
                 down()
-                shower3()
+                #shower3()
                 #potong3()
                 break              
 
@@ -611,7 +611,7 @@ def function58():
                 print (elapsed_time58)
                 print (listt)
                 down()
-                shower1()
+                #shower1()
                 #potong1() 
                 break             
                 
@@ -619,7 +619,7 @@ def function58():
                 print (elapsed_time58)
                 print (listt)
                 down()
-                shower2()
+                #shower2()
                 #potong2()
                 break
                 
@@ -627,7 +627,7 @@ def function58():
                 print (elapsed_time58)
                 print (listt)
                 down()
-                shower3()
+                #shower3()
                 #potong3()
                 break             
 
@@ -669,7 +669,7 @@ def function64():
                 print (elapsed_time64)
                 print (listt)
                 down()
-                shower1() 
+                #shower1() 
                 #potong1()
                 break             
                 
@@ -677,7 +677,7 @@ def function64():
                 print (elapsed_time64)
                 print (listt)
                 down()
-                shower2()
+                #shower2()
                 #potong2()
                 break
                 
@@ -685,7 +685,7 @@ def function64():
                 print (elapsed_time64)
                 print (listt)
                 down()
-                shower3()
+                #shower3()
                 #potong3()
                 break             
 
@@ -753,7 +753,7 @@ def function74():
                 print (elapsed_time74)
                 print (listt)
                 down()
-                shower1()
+                #shower1()
                 #potong1()
                 break              
                 
@@ -761,7 +761,7 @@ def function74():
                 print (elapsed_time74)
                 print (listt)
                 down()
-                shower2()
+                #shower2()
                 #potong2()
                 break
                 
@@ -769,7 +769,7 @@ def function74():
                 print (elapsed_time74)
                 print (listt)
                 down()
-                shower3()
+                #shower3()
                 #potong3()
                 break
 
@@ -812,7 +812,7 @@ def function80():
                 print (elapsed_time80)
                 print (listt)
                 down()
-                shower1() 
+                #shower1() 
                 #potong1()
                 break             
                 
@@ -820,7 +820,7 @@ def function80():
                 print (elapsed_time80)
                 print (listt)
                 down()
-                shower2()
+                #shower2()
                 #potong2()
                 break
                 
@@ -828,7 +828,7 @@ def function80():
                 print (elapsed_time80)
                 print (listt)
                 down()
-                shower3()
+                #shower3()
                 #potong3()
                 break
 
@@ -870,7 +870,7 @@ def function86():
                 print (elapsed_time86)
                 print (listt)
                 down()
-                shower1() 
+                #shower1() 
                 #potong1()
                 break             
                 
@@ -878,7 +878,7 @@ def function86():
                 print (elapsed_time86)
                 print (listt)
                 down()
-                shower2()
+                #shower2()
                 #potong2()
                 break
                 
@@ -886,7 +886,7 @@ def function86():
                 print (elapsed_time86)
                 print (listt)
                 down()
-                shower3()
+                #shower3()
                 #potong3()
                 break
 
@@ -928,7 +928,7 @@ def function92():
                 print (elapsed_time92)
                 print (listt)
                 down()
-                shower1()
+                #shower1()
                 #potong1() 
                 break             
                 
@@ -936,7 +936,7 @@ def function92():
                 print (elapsed_time92)
                 print (listt)
                 down()
-                shower2()
+                #shower2()
                 #potong2()
                 break
                 
@@ -944,7 +944,7 @@ def function92():
                 print (elapsed_time92)
                 print (listt)
                 down()
-                shower3()
+                #shower3()
                 #potong3()
                 break
 
@@ -986,7 +986,7 @@ def function98():
                 print (elapsed_time98)
                 print (listt)
                 down()
-                shower1() 
+                #shower1() 
                 #potong1()
                 break             
                 
@@ -994,7 +994,7 @@ def function98():
                 print (elapsed_time98)
                 print (listt)
                 down()
-                shower2()
+                #shower2()
                 #potong2()
                 break
                 
@@ -1002,7 +1002,7 @@ def function98():
                 print (elapsed_time98)
                 print (listt)
                 down()
-                shower3()
+                #shower3()
                 #potong3()
                 break
 
@@ -1070,7 +1070,7 @@ def function108():
                 print (elapsed_time108)
                 print (listt)
                 down()
-                shower1()
+                #shower1()
                 #potong1()
                 break              
                 
@@ -1078,7 +1078,7 @@ def function108():
                 print (elapsed_time108)
                 print (listt)
                 down()
-                shower2()
+                #shower2()
                 #potong2()
                 break
                 
@@ -1086,7 +1086,7 @@ def function108():
                 print (elapsed_time108)
                 print (listt)
                 down()
-                shower3()
+                #shower3()
                 #potong3()
                 break
 
@@ -1129,7 +1129,7 @@ def function114():
                 print (elapsed_time114)
                 print (listt)
                 down()
-                shower1() 
+                #shower1() 
                 #potong1()
                 break             
                 
@@ -1137,7 +1137,7 @@ def function114():
                 print (elapsed_time114)
                 print (listt)
                 down()
-                shower2()
+                #shower2()
                 #potong2()
                 break
                 
@@ -1145,7 +1145,7 @@ def function114():
                 print (elapsed_time114)
                 print (listt)
                 down()
-                shower3()
+                #shower3()
                 #potong3()
                 break
 
@@ -1187,7 +1187,7 @@ def function120():
                 print (elapsed_time120)
                 print (listt)
                 down()
-                shower1() 
+                #shower1() 
                 #potong1()
                 break             
                 
@@ -1195,7 +1195,7 @@ def function120():
                 print (elapsed_time120)
                 print (listt)
                 down()
-                shower2()
+                #shower2()
                 #potong2()
                 break
                 
@@ -1203,7 +1203,7 @@ def function120():
                 print (elapsed_time120)
                 print (listt)
                 down()
-                shower3()
+                #shower3()
                 #potong3()
                 break
 
@@ -1245,7 +1245,7 @@ def function126():
                 print (elapsed_time126)
                 print (listt)
                 down()
-                shower1() 
+                #shower1() 
                 #potong1()
                 break             
                 
@@ -1253,7 +1253,7 @@ def function126():
                 print (elapsed_time126)
                 print (listt)
                 down()
-                shower2()
+                #shower2()
                 #potong2()
                 break
                 
@@ -1261,7 +1261,7 @@ def function126():
                 print (elapsed_time126)
                 print (listt)
                 down()
-                shower3()
+                #shower3()
                 #potong3()
                 break
                 
@@ -1303,7 +1303,7 @@ def function132():
                 print (elapsed_time132)
                 print (listt)
                 down()
-                shower1() 
+                #shower1() 
                 #potong1()
                 break             
                 
@@ -1311,7 +1311,7 @@ def function132():
                 print (elapsed_time132)
                 print (listt)
                 down()
-                shower2()
+                #shower2()
                 #potong2()
                 break
                 
@@ -1319,7 +1319,7 @@ def function132():
                 print (elapsed_time132)
                 print (listt)
                 down()
-                shower3()
+                #shower3()
                 #potong3()
                 break
                 
@@ -1387,7 +1387,7 @@ def function142():
                 print (elapsed_time142)
                 print (listt)
                 down()
-                shower1()
+                #shower1()
                 #potong1()
                 break              
                 
@@ -1395,7 +1395,7 @@ def function142():
                 print (elapsed_time142)
                 print (listt)
                 down()
-                shower2()
+                #shower2()
                 #potong2()
                 break
                 
@@ -1403,7 +1403,7 @@ def function142():
                 print (elapsed_time142)
                 print (listt)
                 down()
-                shower3()
+                #shower3()
                 #potong3()
                 break
 
@@ -1446,7 +1446,7 @@ def function148():
                 print (elapsed_time148)
                 print (listt)
                 down()
-                shower1() 
+                #shower1() 
                 #potong1()
                 break             
                 
@@ -1454,7 +1454,7 @@ def function148():
                 print (elapsed_time148)
                 print (listt)
                 down()
-                shower2()
+                #shower2()
                 #potong2()
                 break
                 
@@ -1462,7 +1462,7 @@ def function148():
                 print (elapsed_time148)
                 print (listt)
                 down()
-                shower3()
+                #shower3()
                 #potong3()
                 break
 
@@ -1504,7 +1504,7 @@ def function154():
                 print (elapsed_time154)
                 print (listt)
                 down()
-                shower1() 
+                #shower1() 
                 #potong1()
                 break             
                 
@@ -1512,7 +1512,7 @@ def function154():
                 print (elapsed_time154)
                 print (listt)
                 down()
-                shower2()
+                #shower2()
                 #potong2()
                 break
                 
@@ -1520,7 +1520,7 @@ def function154():
                 print (elapsed_time154)
                 print (listt)
                 down()
-                shower3()
+                #shower3()
                 #potong3()
                 break
 
@@ -1562,7 +1562,7 @@ def function160():
                 print (elapsed_time160)
                 print (listt)
                 down()
-                shower1() 
+                #shower1() 
                 #potong1()
                 break             
                 
@@ -1570,7 +1570,7 @@ def function160():
                 print (elapsed_time160)
                 print (listt)
                 down()
-                shower2()
+                #shower2()
                 #potong2()
                 break
                 
@@ -1578,7 +1578,7 @@ def function160():
                 print (elapsed_time160)
                 print (listt)
                 down()
-                shower3()
+                #shower3()
                 #potong3()
                 break
 
@@ -1620,7 +1620,7 @@ def function166():
                 print (elapsed_time166)
                 print (listt)
                 down()
-                shower1() 
+                #shower1() 
                 #potong1()
                 break             
                 
@@ -1628,7 +1628,7 @@ def function166():
                 print (elapsed_time166)
                 print (listt)
                 down()
-                shower2()
+                #shower2()
                 #potong2()
                 break
                 
@@ -1636,7 +1636,7 @@ def function166():
                 print (elapsed_time166)
                 print (listt)
                 down()
-                shower3()
+                #shower3()
                 #potong3()
                 break
 
@@ -1704,7 +1704,7 @@ def function176():
                 print (elapsed_time176)
                 print (listt)
                 down()
-                shower1()
+                #shower1()
                 #potong1()
                 break              
                 
@@ -1712,7 +1712,7 @@ def function176():
                 print (elapsed_time176)
                 print (listt)
                 down()
-                shower2()
+                #shower2()
                 #potong2()
                 break
                 
@@ -1720,7 +1720,7 @@ def function176():
                 print (elapsed_time176)
                 print (listt)
                 down()
-                shower3()
+                #shower3()
                 #potong3()
                 break
 
@@ -1763,7 +1763,7 @@ def function182():
                 print (elapsed_time182)
                 print (listt)
                 down()
-                shower1()
+                #shower1()
                 #potong1()
                 break             
                 
@@ -1771,7 +1771,7 @@ def function182():
                 print (elapsed_time182)
                 print (listt)
                 down()
-                shower2()
+                #shower2()
                 #potong2()
                 break
                 
@@ -1779,7 +1779,7 @@ def function182():
                 print (elapsed_time182)
                 print (listt)
                 down()
-                shower3()
+                #shower3()
                 #potong3()
                 break
 
@@ -1821,7 +1821,7 @@ def function188():
                 print (elapsed_time188)
                 print (listt)
                 down()
-                shower1() 
+                #shower1() 
                 #potong1()
                 break             
                 
@@ -1829,7 +1829,7 @@ def function188():
                 print (elapsed_time188)
                 print (listt)
                 down()
-                shower2()
+                #shower2()
                 #potong2()
                 break
                 
@@ -1837,7 +1837,7 @@ def function188():
                 print (elapsed_time188)
                 print (listt)
                 down()
-                shower3()
+                #shower3()
                 #potong3()
                 break
 
@@ -1879,7 +1879,7 @@ def function194():
                 print (elapsed_time194)
                 print (listt)
                 down()
-                shower1() 
+                #shower1() 
                 #potong1()
                 break             
                 
@@ -1887,7 +1887,7 @@ def function194():
                 print (elapsed_time194)
                 print (listt)
                 down()
-                shower2()
+                #shower2()
                 #potong2()
                 break
                 
@@ -1895,7 +1895,7 @@ def function194():
                 print (elapsed_time194)
                 print (listt)
                 down()
-                shower3()
+                #shower3()
                 #potong3()
                 break
 
@@ -1937,7 +1937,7 @@ def function200():
                 print (elapsed_time200)
                 print (listt)
                 down()
-                shower1() 
+                #shower1() 
                 #potong1()
                 break             
                 
@@ -1945,7 +1945,7 @@ def function200():
                 print (elapsed_time200)
                 print (listt)
                 down()
-                shower2()
+                #shower2()
                 #potong2()
                 break
                 
@@ -1953,7 +1953,7 @@ def function200():
                 print (elapsed_time200)
                 print (listt)
                 down()
-                shower3()
+                #shower3()
                 #potong3()
                 break
 
@@ -2214,7 +2214,7 @@ d205   = 2362000
 
 #Results
 spot = 0
-cap = cv2.VideoCapture(-1)
+cap = cv2.VideoCapture(0)
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640) # 1cm / 32 pixel
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480) # 1cm / 24 pixel
 fps = cap.get(cv2.CAP_PROP_FPS)
